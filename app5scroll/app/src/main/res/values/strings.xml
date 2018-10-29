@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">app5 scroll</string>
+    <string name="article_title">Article Title</string>
+    <string name="article_subtitle">Article Subtitle</string>
+    <string name="article_">
+        hello this is a test string to check for autolinks\n
+        This should have a web link www.google.com\n
+        This should have a email address 2013nuhash@gmail.com\n
+        This should have a phone number 01521108127</string>
+    <string name="add_comment">Add Comment</string>
+</resources>

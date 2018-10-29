@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_gravity="center">
+    <Button
+
+        android:id="@+id/toastButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/RoyalBlue"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/toast"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/MedAquamarine"
+        android:text="@string/display_count"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="120sp"
+        />
+
+    <Button
+        android:id="@+id/count_btn"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/RoyalBlue"
+        android:padding="20dp"
+        android:text="@string/count_"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/toastButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/RoyalBlue"
+        android:padding="20dp"
+        android:text="@string/toast"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/toastButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/MedAquamarine"
+        android:gravity="center_horizontal"
+        android:padding="50dp"
+        android:text="@string/display_count"
+        android:textColor="@color/white"
+        android:textSize="160sp" />
+
+    <Button
+        android:id="@+id/count_button"
+        android:layout_width="196dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/counter"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/cnt_btn" />
+
+</RelativeLayout>

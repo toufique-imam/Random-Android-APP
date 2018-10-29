@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textSize">25dp</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="red_black_white" parent="Base.ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+    <style name="sky_blue_sky_blue4_white" parent="Base.ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">@color/DeepSkyBlue</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@color/deepskyblue4</item>
+    </style>
+    <style name="red_MidNightBlue_white" parent="Base.ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@color/MidnightBlue</item>
+    </style>
+    <style name="deepSkyBlue_Gray_MedAquamarine" parent="Base.ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">@color/MedAquamarine</item>
+        <item name="android:textColorHint">@color/gainsboro</item>
+        <item name="android:background">@color/deepskyblue4</item>
+    </style>
+    <style name="RoyalBlue_Med_Dark" parent="Base.ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">@color/MedAquamarine</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/RoyalBlue</item>
+    </style>
+</resources>

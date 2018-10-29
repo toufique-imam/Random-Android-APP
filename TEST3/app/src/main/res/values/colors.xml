@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="teal">#008080</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="honeydew">#F0FFF0</color>
+    <color name="DodgerBlue">#1e90ff</color>
+    <color name="DeepSkyBlue">#00bfff</color>
+    <color name="MidnightBlue">#191970</color>
+    <color name="Navy">#000080</color>
+    <color name="Blue">#0000ff</color>
+    <color name="RoyalBlue">#4169e1</color>
+    <color name="MedBlue">#0000cd</color>
+    <color name="MedAquamarine">#66cdaa</color>
+    <color name="darkSlateGray">#2f4f4f</color>
+    <color name="darkcyan">#008B8B</color>
+    <color name="deepskyblue4">#00688B</color>
+    <color name="indigodye">#0D4F8B</color>
+    <color name="cornflowerblue">#42426f</color>
+    <color name="gainsboro">#DCDCDC</color>
+</resources>

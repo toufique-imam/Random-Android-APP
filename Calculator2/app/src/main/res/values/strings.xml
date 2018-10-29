@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="enter_number_1">. Enter Number 1 .</string>
+    <string name="enter_number_2">. Enter Number 2 .</string>
+    <string name="result">. Result .</string>
+    <string name="Add">+</string>
+    <string name="Multi">*</string>
+    <string name="divi">/</string>
+    <string name="mod">Mod</string>
+    <string name="percent">%</string>
+    <string name="subtrac">-</string>
+    <string name="powl">x^y</string>
+    <string name="logx_y">Logx(y)</string>
+</resources>

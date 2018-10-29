@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <Button
+        android:background="@color/DeepSkyBlue"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/toast_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:text="@string/toast" />
+
+    <Button
+        android:id="@+id/zero_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toast_button"
+        android:layout_alignEnd="@+id/toast_button"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/zero" />
+
+    <Button
+        android:id="@+id/counter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zero_button"
+        android:layout_alignEnd="@id/zero_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="200dp"
+        android:background="@color/RoyalBlue"
+        android:text="@string/counter"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/Count_show"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:textSize="120sp"
+        android:textColor="@color/DodgerBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="200dp"
+        android:layout_toEndOf="@+id/zero_button"
+        android:text="@string/_0"
+        />
+
+</RelativeLayout>

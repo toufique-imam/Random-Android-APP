@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">APP3</string>
+    <string name="itmname">Name</string>
+    <string name="itmdescription">Description</string>
+    <string name="itmprice">Price</string>
+    <string-array name="items">
+        <item>tomato</item>
+        <item>shing_mach</item>
+        <item>koi_mach</item>
+        <item>alo</item>
+    </string-array>
+    <string-array name="Prices">
+        <item>tk100</item>
+        <item>tk200</item>
+        <item>tk200</item>
+        <item>tk10</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>Fresh Tomato from mina bazar</item>
+        <item>fresh Shing mach from pond</item>
+        <item>fresh koi mach from pond</item>
+        <item>fresh alo from shopno</item>
+    </string-array>
+</resources>

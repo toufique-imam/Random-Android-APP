@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Counter With Reset</string>
+    <string name="toast">Toast</string>
+    <string name="zero">Zero</string>
+    <string name="counter">Counter</string>
+    <string name="_0">0</string>
+</resources>
