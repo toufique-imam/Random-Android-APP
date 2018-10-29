@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Hello World</string>
-    <string name="enter_number_1">Enter Number 1</string>
-    <string name="enter_number_2">Enter Number 2</string>
-    <string name="add">Add</string>
-    <string name="result">Result</string>
-</resources>

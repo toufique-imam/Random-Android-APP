@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/cornflowerblue"
-    android:orientation="vertical"
     android:fontFamily="@font/digital"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_weight="14">
 
     <EditText
+        android:layout_weight="2"
         android:id="@+id/Number_1"
         style="@style/deepSkyBlue_Gray_MedAquamarine"
         android:layout_width="match_parent"
@@ -18,14 +19,16 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:autofillHints=""
-        android:ems="10"
-        android:fontFamily="@font/digital"
+        android:ems="5"
         android:hint="@string/enter_number_1"
         android:inputType="numberDecimal"
         android:textAlignment="textEnd"
+        android:textStyle="italic"
+        android:typeface="monospace"
         tools:targetApi="o" />
 
     <EditText
+        android:layout_weight="2"
         android:id="@+id/Number_2"
         style="@style/deepSkyBlue_Gray_MedAquamarine"
         android:layout_width="match_parent"
@@ -34,14 +37,16 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:autofillHints=""
-        android:ems="10"
-        android:fontFamily="@font/digital"
+        android:ems="5"
         android:hint="@string/enter_number_2"
         android:inputType="numberDecimal"
         android:textAlignment="textEnd"
+        android:textStyle="italic"
+        android:typeface="monospace"
         tools:targetApi="o" />
 
     <EditText
+        android:layout_weight="2"
         android:id="@+id/Result"
         style="@style/sky_blue_sky_blue4_white"
         android:layout_width="match_parent"
@@ -50,24 +55,27 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:autofillHints=""
-        android:ems="10"
-        android:fontFamily="@font/digital"
+        android:ems="5"
         android:hint="@string/result"
         android:inputType="text|numberDecimal"
+        android:typeface="monospace"
         tools:targetApi="o" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="8"
+        android:baselineAligned="false"
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/digital"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"
             android:orientation="vertical">
 
             <Button
+                android:layout_weight="1"
                 android:id="@+id/Subtraction"
                 style="@style/red_black_white"
                 android:layout_width="match_parent"
@@ -76,6 +84,7 @@
                 android:text="@string/subtrac" />
 
             <Button
+                android:layout_weight="1"
                 android:id="@+id/Division"
                 style="@style/red_black_white"
                 android:layout_width="match_parent"
@@ -84,6 +93,7 @@
                 android:text="@string/divi" />
 
             <Button
+                android:layout_weight="1"
                 android:id="@+id/percentage"
                 style="@style/red_black_white"
                 android:layout_width="match_parent"
@@ -92,20 +102,24 @@
                 android:text="@string/percent" />
 
             <Button
+                android:layout_weight="1"
                 android:id="@+id/LOGxY"
                 style="@style/RoyalBlue_Med_Dark"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/digital"
                 android:text="@string/logx_y" />
+
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
             android:orientation="vertical">
 
             <Button
+                android:layout_weight="1"
                 android:id="@+id/addition"
                 style="@style/red_black_white"
                 android:layout_width="match_parent"
@@ -114,6 +128,7 @@
                 android:text="@string/Add" />
 
             <Button
+                android:layout_weight="1"
                 android:id="@+id/Multiplication"
                 style="@style/red_black_white"
                 android:layout_width="match_parent"
@@ -122,6 +137,7 @@
                 android:text="@string/Multi" />
 
             <Button
+                android:layout_weight="1"
                 android:id="@+id/Mod"
                 style="@style/red_black_white"
                 android:layout_width="match_parent"
@@ -130,6 +146,7 @@
                 android:text="@string/mod" />
 
             <Button
+                android:layout_weight="1"
                 android:id="@+id/power"
                 style="@style/RoyalBlue_Med_Dark"
                 android:layout_width="match_parent"
@@ -137,83 +154,5 @@
                 android:fontFamily="@font/digital"
                 android:text="@string/powl" />
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Button
-                android:fontFamily="@font/digital"
-                style="@style/red_black_white"
-                android:id="@+id/button9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                style="@style/red_black_white"
-                android:fontFamily="@font/digital"
-                android:id="@+id/button10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                style="@style/red_black_white"
-                android:fontFamily="@font/digital"
-                android:id="@+id/button11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                style="@style/RoyalBlue_Med_Dark"
-                android:fontFamily="@font/digital"
-                android:id="@+id/button12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <Button
-                style="@style/red_black_white"
-                android:fontFamily="@font/digital"
-                android:id="@+id/button8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                style="@style/red_black_white"
-                android:fontFamily="@font/digital"
-                android:id="@+id/button5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                style="@style/red_black_white"
-                android:fontFamily="@font/digital"
-                android:id="@+id/button6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-
-            <Button
-                style="@style/RoyalBlue_Med_Dark"
-                android:fontFamily="@font/digital"
-                android:id="@+id/button7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
-        </LinearLayout>
-
     </LinearLayout>
-
 </LinearLayout>

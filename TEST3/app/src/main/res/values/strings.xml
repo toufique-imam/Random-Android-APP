@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TEST3</string>
+    <string name="app_name">APP_3 Counter</string>
     <string name="toast">TOAST</string>
     <string name="display_count">0</string>
     <string name="count_">COUNT</string>

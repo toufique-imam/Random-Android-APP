@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Calculator</string>
+    <string name="app_name">APP_1 Calculator</string>
     <string name="enter_number_1">. Enter Number 1 .</string>
     <string name="enter_number_2">. Enter Number 2 .</string>
     <string name="result">. Result .</string>
