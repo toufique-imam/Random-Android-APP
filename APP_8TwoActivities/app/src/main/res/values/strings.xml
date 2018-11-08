@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">APP_8 Two Activities</string>
+    <string name="send_message">Send</string>
+    <string name="app_bar_name">Second Activity</string>
+    <string name="message_recieved">Message Recieved</string>
+    <string name="recieved">Recieved Text Will be here</string>
+    <string name="write_text">Write Text</string>
+</resources>
