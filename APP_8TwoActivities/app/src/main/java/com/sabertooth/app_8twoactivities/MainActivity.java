@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        if (tv.getVisibility() == View.VISIBLE) {
+        if (tv.getText().toString().length() > 0) {
             outState.putBoolean("rv", true);
             outState.putString("rv", tv.getText().toString());
         }
@@ -37,11 +37,10 @@ public class MainActivity extends AppCompatActivity {
         ed1 = findViewById(R.id.edit_text_main);
         final Intent intnt = new Intent(this, secondActivity.class);
         if (savedInstanceState != null) {
-            boolean isVisible = savedInstanceState.getBoolean("rv");
-            if (isVisible) {
+                boolean isVisible = savedInstanceState.getBoolean("rv");
                 tv.setVisibility(View.VISIBLE);
                 tv.setText(savedInstanceState.getString("rv"));
-            }
+
         }
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,12 +60,8 @@ public class MainActivity extends AppCompatActivity {
             if (resCode == RESULT_OK) {
                 String reply = data.getStringExtra(secondActivity.ER);
                 TextView tv1 = findViewById(R.id.text_view_main);
-                if (reply.length() > 0) {
                     tv1.setText(reply);
                     tv1.setVisibility(View.VISIBLE);
-                } else {
-                    tv1.setVisibility(View.INVISIBLE);
-                }
             }
         }
     }

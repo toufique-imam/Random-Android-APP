@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">APP_9 Shop Cart</string>
+    <string name="item_name">Item Name</string>
+    <string name="price">Price</string>
+    <string name="item_desciption">Item desciption</string>
+    <string name="add_item">Add Item</string>
+    <string name="show_list">Show List</string>
+</resources>

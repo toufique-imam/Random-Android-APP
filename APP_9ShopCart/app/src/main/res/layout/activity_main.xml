@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/item_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_regular"
+        android:hint="@string/item_name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/item_price_input"
+        android:fontFamily="@font/google_sans_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/price"
+        android:inputType="number"
+         />
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/item_description_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/item_desciption"
+        android:inputType="textLongMessage"
+        android:fontFamily="@font/google_sans_regular"
+        />
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/Add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_item"
+        android:background="@color/Black"
+        android:textSize="15sp"
+        android:fontFamily="@font/google_sans_bold"
+        android:textColor="@color/red"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/Show_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/honeydew"
+        android:fontFamily="@font/google_sans_italic"
+        android:text="@string/show_list"
+        android:textColor="@color/RoyalBlue" />
+</LinearLayout>

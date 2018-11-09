@@ -10,7 +10,7 @@
         android:fontFamily="@font/google_sans_regular"
         android:padding="10dp"
         android:hint="@string/recieved"
-        android:visibility="invisible"
+        android:visibility="visible"
         android:textSize="30sp" />
 
     <EditText

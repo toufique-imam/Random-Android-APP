@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:id="@+id/Item_Name"
+        android:layout_width="208dp"
+        android:layout_height="62dp"
+        android:hint="@string/item_name"
+        android:textSize="20sp"
+        android:background="@color/MidnightBlue"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gainsboro"/>
+
+    <TextView
+        android:id="@+id/Item_price"
+        android:layout_width="114dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:hint="@string/price"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textColorHint="@color/gainsboro"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="379dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/Item_Name"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/honeydew"
+        android:hint="@string/item_desciption"
+        android:padding="5dp"
+        android:textColor="@color/MidnightBlue"
+        android:textColorHint="@color/gainsboro" />
+</RelativeLayout>
