@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">APP_10 Implicit Intent</string>
+    <string name="http_google_com">http://google.com</string>
+    <string name="open_this_website">Open This Website</string>
+    <string name="khulna_university_of_engineering_and_technology">Khulna University Of Engineering And Technology</string>
+    <string name="a_quick_brown_fox_jumped_over_the_lazy_fox">A quick Brown Fox jumped Over the Lazy Fox</string>
+    <string name="share_this_text">Share This Text</string>
+    <string name="open_this_location">Open This Location</string>
+    <string name="intent_from_outside_will_come_here">Intent From Outside will come here</string>
+</resources>

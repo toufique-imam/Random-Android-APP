@@ -13,10 +13,12 @@ import java.util.ArrayList;
 class pack_data{
     String name,description;
     Integer price;
-    pack_data(String a,Integer p,String d){
+    String loc;
+    pack_data(String a,Integer p,String d,String lo){
         name=a;
         description=d;
         price=p;
+        loc=lo;
     }
 }
 public class MainActivity extends AppCompatActivity {
@@ -26,27 +28,29 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button add_bt=findViewById(R.id.Add_button),show_bt=findViewById(R.id.Show_button);
-        final EditText ed1=findViewById(R.id.item_name_input), ed2=findViewById(R.id.item_price_input), ed3=findViewById(R.id.item_description_input);
+        final EditText ed1=findViewById(R.id.item_name_input), ed2=findViewById(R.id.item_price_input), ed3=findViewById(R.id.item_description_input),ed4=findViewById(R.id.item_location_input);
         add_bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String s1=ed1.getText().toString();
                 String s2=ed2.getText().toString();
                 String s3=ed3.getText().toString();
-                if(s1.length()<1 || s2.length()<1){
+                String s4=ed4.getText().toString();
+                if(s1.length()<1 || s2.length()<1 || s4.length()<1){
                     Toast tt=Toast.makeText(getApplicationContext(),"Invalid Input",Toast.LENGTH_LONG);
                     tt.show();
                 }
                 else {
                     Integer i=Integer.valueOf(s2);
                     if(s3.length()<1)s3="No Description";
-                    pack_data p=new pack_data(s1,i,s3);
+                    pack_data p=new pack_data(s1,i,s3,s4);
                     item_pack.add(p);
                     Toast tt=Toast.makeText(getApplicationContext(),"Done",Toast.LENGTH_LONG);
                     tt.show();
                     ed1.setText(null);
                     ed2.setText(null);
                     ed3.setText(null);
+                    ed4.setText(null);
                 }
             }
         });

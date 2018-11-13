@@ -29,6 +29,15 @@
         android:inputType="textLongMessage"
         android:fontFamily="@font/google_sans_regular"
         />
+    <EditText
+        android:id="@+id/item_location_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/selling_location"
+        android:inputType="text"
+        android:fontFamily="@font/google_sans_regular"
+        />
     <Button
         android:layout_margin="20dp"
         android:id="@+id/Add_button"

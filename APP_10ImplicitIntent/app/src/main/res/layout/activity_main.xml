@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/url_editor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditText_design_white"
+        android:hint="@string/http_google_com"
+        android:inputType="textUri" />
+
+    <Button
+        android:id="@+id/url_opener"
+        style="@style/Button_design_dark"
+        android:text="@string/open_this_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/location_editor"
+        style="@style/EditText_design_white"
+        android:hint="@string/khulna_university_of_engineering_and_technology"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress" />
+
+    <Button
+        android:id="@+id/location_opner"
+        style="@style/Button_design_dark"
+        android:text="@string/open_this_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/share_edit"
+        style="@style/EditText_design_white"
+        android:hint="@string/a_quick_brown_fox_jumped_over_the_lazy_fox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/share_opener"
+        style="@style/Button_design_dark"
+        android:text="@string/share_this_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text_view_for_outside_intents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditText_design_dark"
+        android:hint="@string/intent_from_outside_will_come_here"/>
+</LinearLayout>

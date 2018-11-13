@@ -40,10 +40,12 @@ public class list_adapter extends BaseAdapter {
         TextView item_name_i=v.findViewById(R.id.Item_Name);
         TextView item_price_i=v.findViewById(R.id.Item_price);
         TextView item_des_i=v.findViewById(R.id.Description);
+        TextView item_loc=v.findViewById(R.id.Location);
         pack_data pp=tmp_data.get(position);
         item_des_i.setText(pp.description);
         item_name_i.setText(pp.name);
         item_price_i.setText(pp.price.toString()+" Tk");
+        item_loc.setText(pp.loc);
         return v;
     }
 }

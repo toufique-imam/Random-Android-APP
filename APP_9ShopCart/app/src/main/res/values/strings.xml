@@ -5,4 +5,6 @@
     <string name="item_desciption">Item desciption</string>
     <string name="add_item">Add Item</string>
     <string name="show_list">Show List</string>
+    <string name="selling_location">Selling Location</string>
+    <string name="item_location">Item Location</string>
 </resources>
