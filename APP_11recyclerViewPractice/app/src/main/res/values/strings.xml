@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">APP _11 recyclerView Practice</string>
+    <string name="give_player_name">Give Player Name</string>
+    <string name="specality_of_player">Specality Of Player</string>
+    <string name="player_image">Player Image</string>
+    <string name="add_player">Add Player</string>
+    <string name="about_this_player">About This Player</string>
+    <string name="image_view_text">Inserted Image Will be here</string>
+    <string name="show_player_list">Show Player List</string>
+</resources>

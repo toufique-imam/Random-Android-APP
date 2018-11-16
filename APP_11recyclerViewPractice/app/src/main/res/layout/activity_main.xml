@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/Image_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Name"
+            style="@style/EditText_design_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginBottom="235dp"
+            android:hint="@string/give_player_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Specality"
+            style="@style/EditText_design_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="214dp"
+            android:hint="@string/specality_of_player"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/Description"
+            style="@style/EditText_design_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="4dp"
+            android:hint="@string/about_this_player"
+            android:inputType="textLongMessage" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="107dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/image_take_button"
+                style="@style/Button_design_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/player_image" />
+
+            <ImageView
+                android:id="@+id/ImageView_1"
+                android:layout_width="217dp"
+                android:layout_height="152dp"
+                android:contentDescription="@string/image_view_text"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/add_button"
+            style="@style/Button_design_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="67dp"
+            android:layout_marginBottom="182dp"
+            android:text="@string/add_player" />
+
+        <Button
+            android:id="@+id/go_to_list_button"
+            style="@style/Button_design_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/show_player_list" />
+    </LinearLayout>
+</FrameLayout>

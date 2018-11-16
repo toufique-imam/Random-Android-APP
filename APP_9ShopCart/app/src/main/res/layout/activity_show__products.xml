@@ -3,7 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Show_Products">
+    tools:context=".Show_Products"
+    android:background="@color/red"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Cart"
+        android:textColor="@color/gainsboro"
+        android:background="@color/MidnightBlue"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/google_sans_bold"
+        android:textSize="20sp"/>
     <ListView
         android:id="@+id/list_recycle"
         android:layout_width="match_parent"

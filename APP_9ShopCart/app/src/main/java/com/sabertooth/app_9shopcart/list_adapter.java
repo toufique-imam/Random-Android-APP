@@ -44,7 +44,7 @@ public class list_adapter extends BaseAdapter {
         pack_data pp=tmp_data.get(position);
         item_des_i.setText(pp.description);
         item_name_i.setText(pp.name);
-        item_price_i.setText(pp.price.toString()+" Tk");
+        item_price_i.setText(String.format("%s Tk", pp.price.toString()));
         item_loc.setText(pp.loc);
         return v;
     }

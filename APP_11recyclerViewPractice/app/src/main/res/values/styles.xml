@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Text_google_font">
+        <item name="android:fontFamily">@font/google_sans_italic</item>
+    </style>
+
+    <style name="Button_design_dark">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/Black</item>
+        <item name="android:fontFamily">@font/google_sans_regular</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColorHint">@color/DodgerBlue</item>
+    </style>
+
+    <style name="Button_design_white">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/MidnightBlue</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:fontFamily">@font/google_sans_regular</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColorHint">@color/DodgerBlue</item>
+    </style>
+
+    <style name="EditText_design_white">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/honeydew</item>
+        <item name="android:fontFamily">@font/google_sans_italic</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColorHint">@color/gainsboro</item>
+    </style>
+
+    <style name="EditText_design_red">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/honeydew</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:fontFamily">@font/google_sans_italic</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColorHint">@color/gainsboro</item>
+    </style>
+
+    <style name="EditText_design_blue">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/honeydew</item>
+        <item name="android:background">@color/RoyalBlue</item>
+        <item name="android:fontFamily">@font/google_sans_italic</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColorHint">@color/gainsboro</item>
+    </style>
+
+    <style name="EditText_design_green">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/honeydew</item>
+        <item name="android:background">@color/DarkGreen</item>
+        <item name="android:fontFamily">@font/google_sans_italic</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColorHint">@color/gainsboro</item>
+    </style>
+
+    <style name="EditText_design_dark">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/Black</item>
+        <item name="android:fontFamily">@font/google_sans_italic</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColorHint">@color/MidnightBlue</item>
+    </style>
+
+    <style name="TextView_design_white">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:fontFamily">@font/google_sans_italic</item>
+        <item name="android:textColorHint">@color/MidnightBlue</item>
+    </style>
+
+    <style name="TextView_design_green">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/DarkGreen</item>
+        <item name="android:fontFamily">@font/google_sans_italic</item>
+        <item name="android:textColorHint">@color/gainsboro</item>
+    </style>
+
+    <style name="TextView_design_red">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/DarkRed</item>
+        <item name="android:fontFamily">@font/google_sans_italic</item>
+        <item name="android:textColorHint">@color/gainsboro</item>
+    </style>
+
+    <style name="TextView_design_dark">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@color/Black</item>
+        <item name="android:fontFamily">@font/google_sans_italic</item>
+        <item name="android:textColorHint">@color/MidnightBlue</item>
+    </style>
+
+</resources>
