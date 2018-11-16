@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".PlayerDetails">
+
+    <ImageView
+        android:id="@+id/details_player_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/details_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/DarkRed"
+            android:fontFamily="@font/google_sans_boldatlic"
+            android:text="Player Name Will be here"
+            android:textAlignment="center"
+            android:textColor="@color/GhostWhite"
+            android:textSize="20sp" />
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/DarkRed"
+            android:background="@color/white"
+            android:id="@+id/details_specality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="59dp"
+            android:fontFamily="@font/google_sans_bold"
+            android:text="Player Talents will be here"
+            android:textAlignment="center" />
+
+        <ScrollView
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="96dp">
+
+            <TextView
+                android:textSize="17sp"
+                android:textColor="@color/MidnightBlue"
+                android:id="@+id/details_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/google_sans_regular"
+                android:text="Player description will be here"
+                android:textAlignment="center" />
+        </ScrollView>
+
+    </RelativeLayout>
+</FrameLayout>
