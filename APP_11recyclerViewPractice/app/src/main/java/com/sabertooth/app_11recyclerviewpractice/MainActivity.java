@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d(MainActivity.class.getSimpleName(), "Came Here 4");
                         if (s_des_.length() < 1) s_des_ = "No Description Added Yet";
                         if (s_perks_.length() < 1) s_perks_ = "No Unique Speciality";
-                        pc = new packData(s_name_, s_des_, s_perks_, s_pro_pic);
+                        pc = new packData(s_name_, s_des_, s_perks_, s_pro_pic,null,null,null);
                         main_data.add(pc);
                     }
                 } else {
