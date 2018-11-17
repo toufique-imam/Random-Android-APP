@@ -1,70 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
     tools:context=".PlayerDetails">
 
-    <ImageView
-        android:id="@+id/details_player_image"
+    <FrameLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:scaleType="fitXY"/>
+        android:layout_height="wrap_content">
 
-    <RelativeLayout
-        android:padding="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        <com.jgabrielfreitas.core.BlurImageView
+            android:id="@+id/details_image_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY" />
 
-        <TextView
-            android:padding="5dp"
-            android:id="@+id/details_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:background="@color/DarkRed"
-            android:fontFamily="@font/google_sans_boldatlic"
-            android:text="Player Name Will be here"
-            android:textAlignment="center"
-            android:textColor="@color/GhostWhite"
-            android:textSize="20sp" />
-
-        <TextView
-            android:padding="5dp"
-            android:textSize="16sp"
-            android:textColor="@color/DarkRed"
-            android:background="@color/white"
-            android:id="@+id/details_specality"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="59dp"
-            android:fontFamily="@font/google_sans_bold"
-            android:text="Player Talents will be here"
-            android:textAlignment="center" />
-
-        <ScrollView
-            android:padding="10dp"
-            android:layout_centerHorizontal="true"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="96dp">
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/details_image_2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                tools:srcCompat="@tools:sample/avatars" />
 
             <TextView
-                android:textSize="17sp"
-                android:textColor="@color/MidnightBlue"
-                android:id="@+id/details_about"
+                android:id="@+id/details_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/google_sans_regular"
-                android:text="Player description will be here"
-                android:textAlignment="center" />
-        </ScrollView>
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="144dp"
+                android:background="@color/DarkRed"
+                android:fontFamily="@font/google_sans_boldatlic"
+                android:padding="5dp"
+                android:text="@string/player_name_will_be_here"
+                android:textAlignment="center"
+                android:textColor="@color/GhostWhite"
+                android:textSize="20sp" />
 
-    </RelativeLayout>
-</FrameLayout>
+            <TextView
+                android:id="@+id/details_specality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="203dp"
+                android:background="@color/white"
+                android:fontFamily="@font/google_sans_bold"
+                android:padding="5dp"
+                android:text="@string/player_talents_will_be_here"
+                android:textAlignment="center"
+                android:textColor="@color/DarkRed"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/details_ScrollView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-261dp"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:id="@+id/details_rpl_trophies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/DarkRed"
+                        android:padding="3dp"
+                        android:text="@string/rpl_trophies_won"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/details_rashes_trophies"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/DarkRed"
+                        android:padding="3dp"
+                        android:text="@string/rashes_trophies_won"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:id="@+id/details_batting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/DarkRed"
+                        android:padding="3dp"
+                        android:text="@string/player_best_innings"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/details_bowling"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/DarkRed"
+                        android:padding="3dp"
+                        android:text="@string/player_best_bowling"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/details_ScrollView"
+                android:layout_width="350dp"
+                android:layout_height="330dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="262dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/details_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/google_sans_regular"
+                    android:text="@string/player_description_will_be_here"
+                    android:textAlignment="center"
+                    android:textColor="@color/MidnightBlue"
+                    android:textSize="17sp" />
+            </ScrollView>
+
+        </RelativeLayout>
+    </FrameLayout>
+</ScrollView>

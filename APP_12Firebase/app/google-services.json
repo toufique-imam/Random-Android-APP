@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "205786746539",
+    "firebase_url": "https://app12firebase.firebaseio.com",
+    "project_id": "app12firebase",
+    "storage_bucket": "app12firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205786746539:android:7aeaf0d029bb4864",
+        "android_client_info": {
+          "package_name": "com.sabertooth.app_12firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205786746539-m6pt1nlr3pgv73g9vtau0td5g8m5c6qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sabertooth.app_12firebase",
+            "certificate_hash": "2194e6a850cc66cbf2335f8bc901f644bdb289fe"
+          }
+        },
+        {
+          "client_id": "205786746539-tfg041i5slv8ue8n1ict3gapar2b6nlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4KBCjyemzEWdWOw9jnpiNOhJYpj28xkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205786746539-tfg041i5slv8ue8n1ict3gapar2b6nlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

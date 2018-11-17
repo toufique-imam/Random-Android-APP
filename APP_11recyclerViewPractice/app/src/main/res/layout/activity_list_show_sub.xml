@@ -4,11 +4,10 @@
     android:layout_height="fill_parent"
     android:background="@color/honeydew">
 
-    <ImageView
+    <com.jgabrielfreitas.core.BlurImageView
         android:id="@+id/image_secondary"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:scaleType="centerCrop" />
+        android:layout_height="fill_parent" />
 
     <RelativeLayout
         android:layout_width="match_parent"

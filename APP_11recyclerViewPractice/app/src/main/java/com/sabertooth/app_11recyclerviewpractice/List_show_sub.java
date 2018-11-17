@@ -1,14 +1,16 @@
 package com.sabertooth.app_11recyclerviewpractice;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Display;
 import android.widget.ImageView;
+
+import com.jgabrielfreitas.core.BlurImageView;
 
 public class List_show_sub extends AppCompatActivity {
     RecyclerView.Adapter adp;
@@ -18,8 +20,8 @@ public class List_show_sub extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_show_sub);
-        ImageView bg=findViewById(R.id.image_secondary);
-        scale_image(bg,R.drawable.back_second);
+        BlurImageView bg=findViewById(R.id.image_secondary);
+        resize(bg,R.drawable.back_second);
         adp=new MyAdapater1(this,MainActivity.main_data);
         rc=findViewById(R.id.recycle_view_1);
         lmnag=new GridLayoutManager(this,2);
@@ -27,21 +29,15 @@ public class List_show_sub extends AppCompatActivity {
         rc.setAdapter(adp);
     }
 
-    private void scale_image(ImageView img,int pic) {
-        Display screen=getWindowManager().getDefaultDisplay();//will give us access to screen
-        BitmapFactory.Options opt=new BitmapFactory.Options();//java lib that will scale images for us
-        opt.inJustDecodeBounds=true;
-        BitmapFactory.decodeResource(getResources(),pic,opt);
-        int imgWid=opt.outWidth;
-        int scr=screen.getWidth();
-
-        if(imgWid>scr){
-            opt.inSampleSize= Math.round((float)(imgWid)/ (float)scr);
-        }
-
-        opt.inJustDecodeBounds=false;
-        Bitmap scaleImg=BitmapFactory.decodeResource(getResources(),pic,opt);
-        img.setImageBitmap(scaleImg);
+    private void resize(BlurImageView img, int pic) {
+        Display screen=getWindowManager().getDefaultDisplay();
+        int scrh=screen.getHeight();
+        int scrw=screen.getWidth();
+        Drawable image=getDrawable(pic);
+        Bitmap b = ((BitmapDrawable)image).getBitmap();
+        Bitmap bitmapResized = Bitmap.createScaledBitmap(b, scrw, scrh, false);
+        img.setImageBitmap(bitmapResized);
         img.setScaleType(ImageView.ScaleType.FIT_XY);
+        img.setBlur(2);
     }
 }

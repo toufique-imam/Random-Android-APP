@@ -7,4 +7,15 @@
     <string name="about_this_player">About This Player</string>
     <string name="image_view_text">Inserted Image Will be here</string>
     <string name="show_player_list">Show Player List</string>
+    <string name="best_bowling_stat">Best Bowling stat</string>
+    <string name="best_batting_stat">Best Batting stat</string>
+    <string name="rpl_trophies">RPL trophies</string>
+    <string name="rashes_trophies">Rashes trophies</string>
+    <string name="player_talents_will_be_here">Player Talents will be here</string>
+    <string name="rpl_trophies_won">RPL Trophies Won</string>
+    <string name="rashes_trophies_won">Rashes Trophies Won</string>
+    <string name="player_best_innings">Player Best Innings</string>
+    <string name="player_best_bowling">Player Best Bowling</string>
+    <string name="player_description_will_be_here">Player description will be here</string>
+    <string name="player_name_will_be_here">Player Name Will be here</string>
 </resources>
