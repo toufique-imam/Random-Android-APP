@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">APP_13 Firebase Login</string>
+    <string name="your_mail">Your Mail</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_password">Your Password</string>
+    <string name="todo">TODO</string>
+    <string name="don_t_have_an_account_sign_up_here">Don\'t have an account , Sign UP here!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="show">Show</string>
+    <string name="show_details">Logout</string>
+    <string name="update">Update</string>
+</resources>

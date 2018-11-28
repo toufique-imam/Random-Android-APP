@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "89950526871",
+    "firebase_url": "https://app13-firebaselogin.firebaseio.com",
+    "project_id": "app13-firebaselogin",
+    "storage_bucket": "app13-firebaselogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89950526871:android:1ec6834c110113ee",
+        "android_client_info": {
+          "package_name": "com.sabertooth.app_13firebaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89950526871-m2k2icecvg412i1t2f78pv3k7plsi46v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sabertooth.app_13firebaselogin",
+            "certificate_hash": "2194e6a850cc66cbf2335f8bc901f644bdb289fe"
+          }
+        },
+        {
+          "client_id": "89950526871-o8quvmatk531m2cg5hhahjppvn6as5o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTjb4ZWT12VpKmrk1hUFl0B_JluBJ47Kc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89950526871-o8quvmatk531m2cg5hhahjppvn6as5o6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
